@@ -1,7 +1,9 @@
+---
+title: Style stylesheet
+---
 @font-face {
     font-family: 'Nasalization Rg';
-    src: url('/assets/fonts/nasalization-rg.ttf')  format('truetype');
-
+    src: url('{{site.baseurl}}/assets/fonts/nasalization-rg.ttf')  format('truetype');
   }
 body {
     line-height: 1;
@@ -50,7 +52,7 @@ body {
 
 .header-logo {
     margin: 0.5em;
-    background-image: url("/assets/images/logo-gk-h-light.svg");
+    background-image: url("{{site.baseurl}}/assets/images/logo-gk-h-light.svg");
     background-repeat: no-repeat;
     background-position: center center;
     width: 150px;
