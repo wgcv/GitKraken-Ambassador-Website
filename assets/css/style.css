@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Nasalization Rg';
+    src: url('/assets/fonts/nasalization-rg.ttf')  format('truetype');
+
+  }
+body {
+    line-height: 1;
+    background-color: #141422;
+    font-family: 'Open Sans', sans-serif;
+    color: #d0d0d2;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    font-size: .942666666666667rem;
+    line-height: 1;
+    padding: .7em 1.15em;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.button-basic {
+    color: #d6dfdf;
+    background-color: rgba(230, 84, 37, .8);
+    border: 1px solid #e6542b;
+}
+
+.site-header {
+    background-color: rgba(20, 20, 34, 0.9);
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    height: 70px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    margin: 0.5em;
+    background-image: url("/assets/images/logo-gk-h-light.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 150px;
+    color: #d8c13a;
+    background-size: 150px 40px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.site-header .header-logo span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.header-menu {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.header-menu ul {
+    display: inline-block;
+}
+
+.header-menu li {
+    display: inline-block;
+    line-height: 1.7rem;
+}
+
+.header-menu li a {
+    color: #f9efc1;
+    font-weight: 700;
+    padding: .25em .75em;
+    text-decoration: none;
+}
+
+.header-menu li a:hover {
+    color: #d8c13a;
+}
+
+.hero {
+    padding-top: 70px;
+    background-color: #0b161e;
+    height: calc(100vh - 70px);
+}
+
+.hero-content {
+    height: 400px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Nasalization Rg';
+    color: #fff;
+    font-size: 4.242rem;
+    line-height: 5.1rem;
+}
+h2 {
+    font-family: 'Nasalization Rg';
+    color: #fff;
+}
