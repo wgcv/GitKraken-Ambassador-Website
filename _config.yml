@@ -29,6 +29,12 @@ url: "https://wgcv.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: jekyllrb
 github_username:  jekyll
 
+collections:
+  ambassadors:
+    output: true
+    type: page
+    permalink: "/:path/"
+
 # Build settings
 theme: minima
 plugins:

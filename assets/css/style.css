@@ -227,3 +227,33 @@ dl a:hover, ol a:hover, p a:hover, ul a:hover {
 .m-0 {
     margin: 0 !important;
 }
+.w-100 {
+    width: 100%;
+}
+.map-avatar {
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.list-element  {
+    display: inline-block;
+    min-width: 25%;
+}
+.list-element-detail {
+    padding: 1em;
+}
+.m-1 {
+    margin:10%;
+}
+.avatar {
+    width: 75px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;  
+}
