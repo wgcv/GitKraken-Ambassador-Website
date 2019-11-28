@@ -21,6 +21,18 @@ blockquote, p {
     line-height: 1.7rem;
     margin-top: 1.7rem;
 }
+h3 {
+    font-size: 1.414rem;
+    line-height: 1.7rem;
+    margin-top: 1.7rem;
+    color: #20968b;
+}
+.a-nodecoration {
+    text-decoration: none !important;
+}
+.small {
+    font-size: .942666666666667rem;
+}
 .menu-space {
     height: 70px;
     width: 100%;
@@ -241,14 +253,40 @@ dl a:hover, ol a:hover, p a:hover, ul a:hover {
     display: inline-block !important;
 }
 .list-element  {
+    vertical-align: top;
     display: inline-block;
-    min-width: 25%;
+    width: calc(25% - 5em);
+    background: #262633;
+    padding: 2em 1em;
+    margin: 1em;
+    min-height: 200px;
+    max-height: 200px;
 }
 .list-element-detail {
-    padding: 1em;
+    color: #d0d0d2;
 }
-.m-1 {
+.element-detail-experience {
+    margin: 0.25em 0;
+    font-weight: 700;
+}
+
+.m-10 {
     margin:10%;
+}
+.m-5 {
+    margin:5%;
+}
+.mt-5 {
+    margin-top: 5%;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-1 {
+    margin-bottom: 1%;
+}
+.mb-5 {
+    margin-bottom: 5%;
 }
 .avatar {
     width: 75px;
@@ -256,4 +294,23 @@ dl a:hover, ol a:hover, p a:hover, ul a:hover {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;  
+}
+@media (max-width: 1140px) {
+    .list-element  {
+        width: calc(33.33% - 5em);
+    }
+}
+@media (max-width: 960px) {
+    .list-element  {
+        width: calc(50% - 5em);
+        min-height: 175px;
+        max-height: 175px;
+    }
+}
+@media (max-width: 720px) {
+    .list-element  {
+        width: calc(100% - 4em);
+        min-height: 175px;
+        max-height: 175px;
+    }
 }

@@ -20,6 +20,12 @@
         <p class="site-footer-copyright">© 2019 Axosoft, LLC. &nbsp;Made with &nbsp;<img src="{{site.baseurl}}/assets/images/heart.svg" height="12px"/> &nbsp; by GitKraken ambassadors</p>
     </div>
 </footer>
+{% if page.footer_js %}
+{% for js_file in page.footer_js %}
+<script src='{{site.baseurl}}/assets/js/{{ js_file }}.js' type="text/javascript"></script>
+{% endfor %}
+{% endif %}
+
 </body>
 
 </html>

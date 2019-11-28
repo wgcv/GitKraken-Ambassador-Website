@@ -5,6 +5,7 @@
 layout: ambassadors
 custom_js: ["leaflet"]
 custom_css: ["leaflet"]
+footer_js: ["ambassadors-map"]
 title: Our ambassadors
 
 ---
