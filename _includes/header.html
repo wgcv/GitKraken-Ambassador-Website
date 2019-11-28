@@ -22,7 +22,12 @@
     <script src='{{site.baseurl}}/assets/js/{{ js_file }}.js' type="text/javascript"></script>
     {% endfor %}
     {% endif %}
-
+    {% if page.custom_css %}
+    {% for css_file in page.custom_css %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ css_file }}.css" media="screen" type="text/css">
+    {% endfor %}
+    {% endif %}
+    
     <link rel="icon" href="{{site.baseurl}}/assets/images/favicon-32x32.png" type="image/png">
 
     {% if page.canonical != nil %}
@@ -62,7 +67,7 @@
             <ul>
                 <li><a href="{{site.baseurl}}/">Home</a></li>
                 <li><a href="{{site.baseurl}}/">Program</a></li>
-                <li><a href="{{site.baseurl}}/">Ambassador</a></li>
+                <li><a href="{{site.baseurl}}/ambassadors">Ambassador</a></li>
                 <li><a href="{{site.baseurl}}/">Event</a></li>
                 <li><a href="{{site.baseurl}}/">Contact</a></li>
             </ul>
