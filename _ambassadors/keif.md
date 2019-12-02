@@ -13,5 +13,5 @@ about: |
     Be happy to use **markdown** also links like [links](https://gitkraken.com/)!
   
     Paragraphs and blocks also supported.
-avatar: https://avatars2.githubusercontent.com/u/30123132?s=460&v=4
+avatar: https://avatars2.githubusercontent.com/u/30123132
 ---

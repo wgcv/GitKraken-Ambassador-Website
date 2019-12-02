@@ -27,6 +27,9 @@ h3 {
     margin-top: 1.7rem;
     color: #20968b;
 }
+.va-top {
+    vertical-align: top;
+}
 .a-nodecoration {
     text-decoration: none !important;
 }
@@ -294,6 +297,18 @@ dl a:hover, ol a:hover, p a:hover, ul a:hover {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;  
+}
+.profile-information {
+    margin-top: 1.7rem;
+    width: 25%;
+}
+.profile-detail {
+    width: 70%;
+}
+.profile-picture {
+    border-radius: 1rem;
+    width: 75%;
+    max-width: 200px;
 }
 @media (max-width: 1140px) {
     .list-element  {
