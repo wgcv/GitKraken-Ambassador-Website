@@ -1,7 +1,7 @@
 ---
 title: ambassador map JS
 ---
-var mymap = L.map('mapid').setView([15, 15], 2);
+var mymap = L.map('mapid');
 var markerIcon = L.icon({
     iconUrl: '{{site.baseurl}}/assets/images/marker.png',
     iconRetinaUrl: '{{site.baseurl}}/assets/images/marker-2x.png',
