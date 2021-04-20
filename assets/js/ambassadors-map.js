@@ -1,7 +1,7 @@
 ---
 title: ambassador map JS
 ---
-var mymap = L.map('mapid');
+var mymap = L.map('mapid').setView([15, 15], 2);
 var markerIcon = L.icon({
     iconUrl: '{{site.baseurl}}/assets/images/marker.png',
     iconRetinaUrl: '{{site.baseurl}}/assets/images/marker-2x.png',
@@ -9,7 +9,6 @@ var markerIcon = L.icon({
     iconAnchor:   [10, 38], // point of the icon which will correspond to marker's location
     popupAnchor:  [10, -20] // point from which the popup should open relative to the iconAnchor
     });
-var map = L.map('map');
 
 
 L.tileLayer('https://api.tiles.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
